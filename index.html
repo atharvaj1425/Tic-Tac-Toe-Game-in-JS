@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic-Tac-Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <p id="p">Tic-Tac-Toe Game in <span>JS</span></p>
+    <div class="container">
+        <div class="grid">
+            <div class="row">
+                <div onclick="handleClick(this)" id="0" class="col"></div>
+                <div onclick="handleClick(this)" id="1" class="col"></div>
+                <div onclick="handleClick(this)" id="2" class="col"></div>
+            </div>
+            <div class="row">
+                <div onclick="handleClick(this)" id="3" class="col"></div>
+                <div onclick="handleClick(this)" id="4" class="col"></div>
+                <div onclick="handleClick(this)" id="5" class="col"></div>
+            </div>
+            <div class="row">
+                <div onclick="handleClick(this)" id="6" class="col"></div>
+                <div onclick="handleClick(this)" id="7" class="col"></div>
+                <div onclick="handleClick(this)" id="8" class="col"></div>
+            </div>
+        </div>
+    </div>
+    1<!-- 
+    <div class="score-board">
+        <div class="score">
+            <p id="cross-score">0</p>
+            <img src="cross.png">
+        </div>
+        <div class="score">
+            <p id="circle-score">0</p>
+            <img  id="circle" src="circle.png">
+        </div>
+    </div>
+      -->
+    <div class="button">
+        <button id="btn">Reset</button>
+    </div>
+    <script src="tic_tac_toe.js">tic_tac_toe.js</script>
+</body>
+</html>
